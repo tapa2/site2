@@ -1,0 +1,152 @@
+
+/*zeroing*/ 
+
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body{
+   background-color: #e8e8e8;
+   background: url('../img/Ellipse_1_copy.png') 50% 100px no-repeat;
+}
+
+
+.main {
+   padding: 100px;
+
+}
+
+.heading {
+   font-family: "Arial MT";
+   font-size: 14px;
+   text-align: center;
+   padding-bottom: 30px;
+}
+
+.topic {
+   display: block;
+   width: 721px;
+   height: 75px;
+   color: #273d46;
+   font-family: "Times New Roman PSMT";
+   font-size: 36px;
+   font-weight: 400;
+   line-height: 50px;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   margin-bottom: 90px;
+}
+
+.light-man{
+   width: 841px;
+   height: 561px;
+   background-color: white;
+   padding: 10px;
+   box-shadow: 0 15px 65px rgba(15, 16, 16, 0.15);
+   margin-left: auto;
+   margin-right: auto;
+}
+
+article{
+/* Style for "Donec ared" */
+width: 736px;
+height: 257px;
+opacity: 0.8;
+color: #273d46;
+font-family: "Times New Roman PSMT";
+font-size: 24px;
+font-weight: 400;
+line-height: 40px;
+text-align: left;
+margin-left: auto;
+margin-right: auto;
+margin-top: 110px;
+}
+
+.list{
+   margin-top: 60px;
+   font-family: "Arial MT";
+   font-size: 20px;
+   display: table;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 60px;
+}
+
+.list li{
+   margin-top: 15px;
+   background: url('../img/check_icon.png') left no-repeat;
+   padding:  0 0 0 30px;
+}
+
+.first {
+   color: #273d46;
+}
+
+.second {
+   font-style: italic;
+   color: #80b7b3;
+}
+.third {
+   font-weight: bold;
+   color: #273d46;  
+}
+.fourth {
+   opacity: 0.3;
+   text-decoration: line-through;
+}
+
+.button{
+   background: url('../img/Shape_2.png') 85% 50% no-repeat;
+   background-color:#80b7b3;
+   width: 199px;
+   height: 44px;
+   box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+   border-radius: 30px;
+   padding-top: 15px;
+   padding-left: 50px;
+   margin-left: 15%;
+}
+
+.button a{
+   text-transform: uppercase;
+   color: #ffffff;
+   font-family: "Arial MT";
+   font-size: 14px;
+   
+}
